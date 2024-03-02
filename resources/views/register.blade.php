@@ -110,7 +110,10 @@
                     </div>
                     <div class="form-group">
                         <label><i class="fa fa-address-book"></i> Role</label>
-                        <input type="text" name="role" class="form-control" value="siswa" readonly>
+                        <select name="role" class="form-control">
+                            <option value="siswa">siswa</option>
+                            <option value="admin">admin</option>
+                        </select>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-user"></i> Register</button>
                     <hr>

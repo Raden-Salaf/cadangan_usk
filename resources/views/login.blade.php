@@ -391,8 +391,10 @@
                 </label>
                 <label class="form-group">
                         <label><i class="fa fa-address-book"></i> Role</label>
-                        <input type="text" name="role" class="form-control" value="siswa" readonly>
-                        <input type="text" name="role" class="form-control" value="admin" readonly>
+                        <select name="role" class="form-control">
+                            <option value="siswa">siswa</option>
+                            <option value="admin">admin</option>
+                        </select>
                 </label>
                 
                 <button a href="/registers" type="submit" class="submit">Sign Up</button>
