@@ -16,7 +16,10 @@ class SoalCon extends Controller
     }
     public function storeinput(Request $request)
     {
-        // insert data ke table soal
+        if($request->bataswaktu< date('Y-m-d')){
+            return redirect()->back()->with('error','Anda Salah Dalam Memasukan Tanggal');
+        }
+
         DB::table('soal')->insert([
             'judulmateri' => $request->judulmateri,
             'deskripsisoal' => $request->deskripsisoal,

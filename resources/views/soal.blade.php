@@ -70,6 +70,11 @@
         @if (Auth::user()->role == 'admin')
             <button class="btn btn-primary" data-toggle="modal" data-target="#TambahSoal">Tambah Tugas</button>
         @endif
+        @if (session()->has('error'))
+        <div class="alert alert-danger position-absolute" role ="alert">
+            {{ session('error') }}
+          </div>
+        @endif
         <br>
         <br>
         <table class="table table-striped table-hover">
