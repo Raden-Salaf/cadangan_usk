@@ -20,7 +20,7 @@
                 width: 100%;
                 border-collapse: collapse;
                 margin: 20px 0;
-                background-color: #dc3545;
+                background-color:#f2f2f2;
                 /* Warna latar merah */
                 color: rgb(24, 19, 19);
                 /* Warna teks putih */
@@ -34,7 +34,7 @@
             }
 
             th {
-                background-color: #dc3545;
+                background-color: #006aff;
                 color: white;
             }
 
@@ -62,34 +62,6 @@
                 background-color: #007bff;
             }
 
-            .modal {
-                display: none;
-                position: fixed;
-                z-index: 1;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0, 0, 0, 0.4);
-            }
-
-            .modal-content {
-                background-color: #fefefe;
-                margin: 10% auto;
-                padding: 20px;
-                border: 1px solid #888;
-                width: 80%;
-            }
-
-            .modal-header h1 {
-                margin: 0;
-            }
-
-            .modal-body {
-                padding: 10px 0;
-            }
-
             .form-control {
                 width: 100%;
                 padding: 10px;
@@ -107,7 +79,7 @@
 
     <body>
         <b>
-            <h2 class="text-primary">Data Nilai</h2>
+            <h2 class="btn btn-primary">Data Nilai</h2>
         </b>
         <br />
         <table class="table table-dark table-hover m-lg-2">

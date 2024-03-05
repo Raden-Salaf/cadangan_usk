@@ -24,7 +24,7 @@
         body {
             font-family: 'Open Sans', Helvetica, Arial, sans-serif;
             background: #ffffff;
-            background: url('/img/login.jpg') center center fixed;
+            background: url('/img/batik_merah.jpg') center center fixed;
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -124,7 +124,7 @@
             top: 0;
             width: 900px;
             height: 100%;
-            background-image: url("login.jpg");
+            background-image: url("batik_merah.jpg");
             opacity: .8;
             background-size: cover;
             -webkit-transition: -webkit-transform 1.2s ease-in-out;
@@ -139,7 +139,7 @@
             top: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(238, 6, 6, 0.847);
         }
 
         .cont.s--signup .img:before {
@@ -261,7 +261,7 @@
 
         label span {
             font-size: 12px;
-            color: #cfcfcf;
+            color: #000000;
             text-transform: uppercase;
         }
 
@@ -285,7 +285,7 @@
         .submit {
             margin-top: 40px;
             margin-bottom: 20px;
-            background: #d4af7a;
+            background: #0affef;
             text-transform: uppercase;
         }
 
@@ -396,7 +396,7 @@
                             <option value="admin">admin</option>
                         </select>
                 </label>
-                
+
                 <button a href="/registers" type="submit" class="submit">Sign Up</button>
             </form>
         </div>

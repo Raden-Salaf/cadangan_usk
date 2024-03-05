@@ -10,6 +10,7 @@
             body {
                 font-family: Arial, sans-serif;
                 background-color: #f4f4f4;
+                background-image: url("abang.jpg")
             }
 
             h2 {
@@ -30,7 +31,7 @@
             }
 
             th {
-                background-color: #dc3545;
+                background-color: #006aff;
                 /* Warna merah */
                 color: white;
             }
@@ -59,51 +60,12 @@
                 background-color: #007bff;
             }
 
-            .modal {
-                display: none;
-                position: fixed;
-                z-index: 1;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0, 0, 0, 0.4);
-            }
 
-            .modal-content {
-                background-color: #fefefe;
-                margin: 10% auto;
-                padding: 20px;
-                border: 1px solid #888;
-                width: 80%;
-            }
-
-            .modal-header h1 {
-                margin: 0;
-            }
-
-            .modal-body {
-                padding: 10px 0;
-            }
-
-            .form-control {
-                width: 100%;
-                padding: 10px;
-                margin: 5px 0;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                box-sizing: border-box;
-            }
-
-            .modal-footer {
-                padding: 10px 0;
-            }
         </style>
     </head>
 
     <body>
-        <h2>Data Tugas</h2>
+        <h2 class="text-success">Data Tugas</h2>
         <br />
         @if (Auth::user()->role == 'admin')
             <button class="btn btn-primary" data-toggle="modal" data-target="#TambahSoal">Tambah Tugas</button>

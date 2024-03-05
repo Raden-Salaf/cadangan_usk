@@ -5,6 +5,35 @@
 
         <head>
             <title>User</title>
+
+            <style>
+             table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+                background-color:#f2f2f2;
+                /* Warna latar merah */
+                color: rgb(24, 19, 19);
+                /* Warna teks putih */
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #006aff;
+                color: white;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            </style>
+
         </head>
 
         <body>
